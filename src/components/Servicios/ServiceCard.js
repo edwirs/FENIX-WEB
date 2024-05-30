@@ -15,7 +15,7 @@ function ServiceCard({data,index}){
             <div className="w-full ">
                 <img src={data.img} className='w-10 h-10'/>
                 <h2 className="text-xl font-semibold text-gray-900 pt-8">{data.title}</h2>
-                <p className="text-lg font-regular text-gray-500 pt-4">{data.title}</p>
+                <p className="text-lg font-regular text-gray-500 pt-4">{data.description}</p>
             </div>
             <div className="absolute bottom-0 left-0 p-8">
                 <h2 id={index} className="items-end text-xl font-semibold text-gray-900 pt-8">Saber mas</h2>

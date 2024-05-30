@@ -8,12 +8,12 @@ import { useEffect } from "react"
 
 const posts_software = [
   {
-    title: 'Boost your conversion rate',
+    title: 'Trajes para caballero',
     img: coding_img,
     href: '#',
     category: { name: 'Article', href: '#' },
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+      'Fabricación de trajes para caballero sobre medidas en diferentes modelos y estilos, siempre teniendo muy en cuenta el gusto y opinión del cliente.',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
     imageUrl:
@@ -27,12 +27,12 @@ const posts_software = [
     },
   },
   {
-    title: 'How to use search engine optimization to drive sales',
+    title: 'Pantalones',
     href: '#',
     img: coding_img,
     category: { name: 'Video', href: '#' },
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+      'Creación de pantalones a la medida que satisfagan la necesidad del cliente, con la mas alta calidad y materiales de primera calidad, lo cual brinda una duración única.',
     date: 'Mar 10, 2020',
     datetime: '2020-03-10',
     imageUrl:
@@ -46,12 +46,12 @@ const posts_software = [
     },
   },
   {
-    title: 'Improve your customer experience',
+    title: 'Abrigos, Chaquetas y chaquetones',
     href: '#',
     img: coding_img,
     category: { name: 'Case Study', href: '#' },
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+      'Contar con un abrigo, una chaqueta o chaqueton elegante personalizado puede llegar a ser un distintivo único, por ello confecciones Randol´s te ofrece lo mejor de lo mejor.',
     date: 'Feb 12, 2020',
     datetime: '2020-02-12',
     imageUrl:
@@ -68,12 +68,12 @@ const posts_software = [
 
 const posts_design = [
   {
-    title: 'Boost your conversion rate',
+    title: 'Camisas',
     img: coding_img,
     href: '#',
     category: { name: 'Article', href: '#' },
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+      'Para tener una presentacion elegante casual, la casmia se convierte en una prenda indispensable, por ello, ofrecemos a nuestros clientes lo mejor en calidad y precio de camiseria.',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
     imageUrl:
@@ -87,12 +87,12 @@ const posts_design = [
     },
   },
   {
-    title: 'How to use search engine optimization to drive sales',
+    title: 'Corbatas y corbatines',
     href: '#',
     img: coding_img,
     category: { name: 'Video', href: '#' },
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+      'Para tus presentaciones, eventos, reunones, empresas, diario y demas, una buena corbata o corbatin te hace distinguir de los demas, este accesorio es indispensable.',
     date: 'Mar 10, 2020',
     datetime: '2020-03-10',
     imageUrl:
@@ -106,12 +106,12 @@ const posts_design = [
     },
   },
   {
-    title: 'Improve your customer experience',
+    title: 'Marcornas',
     href: '#',
     img: coding_img,
     category: { name: 'Case Study', href: '#' },
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+      'Si quieres hacer parte del grupo mas selectivo en cuanto a moda y elegancia, lo mejor es pensar en un accesorio como las mancornas, el cual te dara ese ditintivo elegante que tanto estas buscando.',
     date: 'Feb 12, 2020',
     datetime: '2020-02-12',
     imageUrl:
@@ -139,8 +139,8 @@ useEffect(()=>{
               <div className="py-12 bg-gray-50">
 
               </div>
-              <ServicesList posts={posts_software} section_title={'Software and Product Development'}/>
-              <ServicesList posts={posts_design} section_title={'Design Services'}/>
+              <ServicesList posts={posts_software} section_title={'Trajes a la medida'}/>
+              <ServicesList posts={posts_design} section_title={'Accesorios Casuales'}/>
           </div>
               <Footer/>
       </Layout>

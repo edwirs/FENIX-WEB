@@ -100,7 +100,10 @@ function Header(){
                   Acerca de Nosotros
                 </h1>
                 <p className="mt-16 text-2xl max-w-3xl leading-8 text-black max-w-4xl">
-                Debo agregar aqui un texto que hable sobre la sastreria Randol's, como historia, casos, tiempo, calidad, es decir una reseña breve de la empresa.
+                Randol´s confecciones nace en 1998, gracias al empeño y dedicacion de su fundador Diego Barragan y al equipo de trabajo que ha acompañado este emprendimiento,
+                logrando formar un camino de sastres con compromiso y claidad en sus labores.
+
+                Esta empresa es una marca que ha logrado posicionarse en el mercado local, siendo pioneros en la venta de trajes a la medida, conservando la confeccion y el enfoque en el cliente constantemente.
                 </p>
                 <div className="absolute bottom-0 left-0 flex space-x-6 xl:mx-20 mx-6">
                 {navigation.social.map((item) => (

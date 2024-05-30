@@ -6,11 +6,11 @@ function CaseList(){
     const posts = [
         {
             id:'1234-qwer',
-          title: 'Boost your conversion rate',
+          title: 'Innovacion en materiales',
           href: '#',
-          category: { name: 'Article', href: '#' },
+          category: { name: 'Articulo', href: '#' },
           description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+            'Mantenemos la conviccion que la investigacion de nuevas tenologias que apoyen el crecimiento de la calidad de las telas, es indispensable para poder aumentar la confiabilidad y fibilidad con nuestros clientes.',
           date: 'Mar 16, 2020',
           datetime: '2020-03-16',
           imageUrl:
@@ -25,11 +25,11 @@ function CaseList(){
         },
         {
             id:'5678-asdf',
-          title: 'How to use search engine optimization to drive sales',
+          title: 'Investigacion en la optimizacion de los procesos',
           href: '#',
-          category: { name: 'Video', href: '#' },
+          category: { name: 'Noticia', href: '#' },
           description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+            'Para confecciones Randol´s es indisensable siempre la optimizacion y mejora cotinua de sus procesos, esto con el fin de poder crecer como compañia y brindar la mejor calidad en la fabricacion de cada uno de nuestros prodctos.',
           date: 'Mar 10, 2020',
           datetime: '2020-03-10',
           imageUrl:
@@ -44,11 +44,11 @@ function CaseList(){
         },
         {
             id:'4321-zxcv',
-          title: 'Improve your customer experience',
+          title: 'Mejora la experiencia de tus clientes',
           href: '#',
-          category: { name: 'Case Study', href: '#' },
+          category: { name: 'Mejora', href: '#' },
           description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+            'Bucamos encontrar un equilibrio entre lo que el cliente quier y lo que la empresa le ofrece, esto con el fin de poder dar a cada uno de ellos la mejor experiencia dentro de nuestra empresa.',
           date: 'Feb 12, 2020',
           datetime: '2020-02-12',
           imageUrl:

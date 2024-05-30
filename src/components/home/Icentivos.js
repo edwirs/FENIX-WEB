@@ -1,19 +1,19 @@
 const incentives = [
     {
-      name: 'Free shipping',
+      name: 'Envío gratis',
       imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg',
-      description: "It's not actually free we just price it into the products. Someone's paying for it, and it's not us.",
+      description: "En realidad, no es gratis, simplemente le ponemos precio a los productos. Alguien está pagando por ello y no somos nosotros.",
     },
     {
-      name: '10-year warranty',
+      name: 'Nuestra garantía',
       imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg',
-      description: "If it breaks in the first 10 years we'll replace it. After that you're on your own though.",
+      description: "Prestamos garantía de por vida por nuestros materiales y csturas, casos ajenos a ello, no estaras solo, te brindaremos asesoria personailizada.",
     },
     {
-      name: 'Exchanges',
+      name: 'Cambios',
       imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg',
       description:
-        "If you don't like it, trade it to one of your friends for something of theirs. Don't send it here though.",
+        "Una vez la prenda sale de nuestras instalaciones no cuenta con cambios o devoluciones, pero si puedes cambiarlo con alguno de tus amigos.",
     },
   ]
   
@@ -24,12 +24,12 @@ const incentives = [
           <div className="mx-auto max-w-2xl px-4 lg:max-w-none">
             <div className="max-w-3xl">
               <h2 className="text-4xl font-bold tracking-tight text-gray-900">
-                We built our business on customer service
+              Construimos nuestro negocio sobre la base del servicio al cliente.
               </h2>
               <p className="mt-4 text-gray-500">
-                At the beginning at least, but then we realized we could make a lot more money if we kinda stopped caring
-                about that. Our new strategy is to write a bunch of things that look really good in the headlines, then
-                clarify in the small print but hope people don't actually read it.
+                En confecciones Randol´s creemos que basarnos en nuestros clientes siempre nos otorga la facilidad de poder ir un paso adelante,
+                con el unico fin de constntemente estar innovando y mejorando para ellos. Tu negocio, tu dia a dia, tus eventos, tus uniformes pueden
+                ser el mejor distintiv si cuentas con una prenda elegante diseada y confeccionada por confecciones Randol's.
               </p>
             </div>
             <div className="mt-16 grid grid-cols-1 gap-y-10 gap-x-8 lg:grid-cols-3">

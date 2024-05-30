@@ -99,8 +99,8 @@ function Header(){
                   Casos Estudiados
                 </h1>
                 <p className="mt-16 text-2xl max-w-3xl leading-8 text-black ">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
-                  amet fugiat veniam occaecat fugiat aliqua.
+                Creemos que los grandes productos no pueden surgir sin pasión, inteligencia y compromiso personal, 
+                y lo demuestra nuestro portafolio que abarca diferentes clientes, industrias y audiencias objetivo.
                 </p>
                 <div className="absolute bottom-0 left-0 flex space-x-6 xl:mx-20 mx-6">
                 {navigation.social.map((item) => (
