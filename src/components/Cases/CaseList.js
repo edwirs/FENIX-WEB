@@ -1,20 +1,22 @@
 import CaseCard from "./CaseCard"
 import Carousel from '@itseasy21/react-elastic-carousel';
+import orientacion from 'assets/img/orientacion.png';
+import claridad from 'assets/img/claridad.png';
+import transformacion from 'assets/img/transformacion.png';
 
 function CaseList(){
 
     const posts = [
         {
             id:'1234-qwer',
-          title: 'Innovacion en materiales',
+          title: 'Orientación en Relaciones Personales',
           href: '#',
           category: { name: 'Articulo', href: '#' },
           description:
-            'Mantenemos la conviccion que la investigacion de nuevas tenologias que apoyen el crecimiento de la calidad de las telas, es indispensable para poder aumentar la confiabilidad y fibilidad con nuestros clientes.',
+            'He tenido el privilegio de ayudar a mis consultantes a comprender mejor sus relaciones, ya sea con su pareja, familia o amistades. Gracias a las cartas, hemos descubierto verdades ocultas y encontrado la manera de mejorar la comunicación y fortalecer los vínculos.',
           date: 'Mar 16, 2020',
           datetime: '2020-03-16',
-          imageUrl:
-            'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+          imageUrl: orientacion,
           readingTime: '6 min',
           author: {
             name: 'Roel Aufderehar',
@@ -25,15 +27,14 @@ function CaseList(){
         },
         {
             id:'5678-asdf',
-          title: 'Investigacion en la optimizacion de los procesos',
+          title: 'Claridad en Momentos de Cambio',
           href: '#',
           category: { name: 'Noticia', href: '#' },
           description:
-            'Para confecciones Randol´s es indisensable siempre la optimizacion y mejora cotinua de sus procesos, esto con el fin de poder crecer como compañia y brindar la mejor calidad en la fabricacion de cada uno de nuestros prodctos.',
+            'A lo largo de mi experiencia, he acompañado a muchas personas en decisiones importantes como mudanzas, cambios de carrera y nuevos comienzos. A través del tarot, he podido darles la claridad que necesitaban para actuar con seguridad y tomar el camino más favorable.',
           date: 'Mar 10, 2020',
           datetime: '2020-03-10',
-          imageUrl:
-            'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+          imageUrl:claridad,
           readingTime: '4 min',
           author: {
             name: 'Brenna Goyette',
@@ -44,15 +45,14 @@ function CaseList(){
         },
         {
             id:'4321-zxcv',
-          title: 'Mejora la experiencia de tus clientes',
+          title: 'Transformación y Bienestar Personal',
           href: '#',
           category: { name: 'Mejora', href: '#' },
           description:
-            'Bucamos encontrar un equilibrio entre lo que el cliente quier y lo que la empresa le ofrece, esto con el fin de poder dar a cada uno de ellos la mejor experiencia dentro de nuestra empresa.',
+            'Uno de mis mayores logros es ver cómo, después de una lectura, las personas se sienten más tranquilas y motivadas para transformar su vida. He guiado a muchos consultantes en la superación de bloqueos y en la búsqueda de equilibrio, logrando mejoras reales en su bienestar diario.',
           date: 'Feb 12, 2020',
           datetime: '2020-02-12',
-          imageUrl:
-            'https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+          imageUrl: transformacion,
           readingTime: '11 min',
           author: {
             name: 'Daniela Metz',

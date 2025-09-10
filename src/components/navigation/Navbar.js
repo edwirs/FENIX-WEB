@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import {NavLink, Link} from 'react-router-dom'
-import randols from 'assets/img/Randols-Positivo.png'
+import randols from 'assets/img/fenix.png'
 import loading from 'assets/img/loading.gif'
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
@@ -60,16 +60,45 @@ function Navbar(){
                         className=''/>
                     </Link>
                     <div className='ml-4 mt-2 flex-shrink-0'>
-                        <NavLink to='/casos' className='text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-indigo-600 transition duration-300 ease-in-out mx-4'>Casos</NavLink>
-                        <NavLink to='/servicios' className='text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-indigo-600 transition duration-300 ease-in-out mx-4'>Servicios</NavLink>
-                        <NavLink to='/nosotros' className='text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-indigo-600 transition duration-300 ease-in-out mx-4'>Nosotros</NavLink>
-                        <NavLink to='/contacto' className='text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-indigo-600 transition duration-300 ease-in-out mx-4'>Contacto</NavLink>
-                        <Link 
-                            to='/Login'
-                            className='ml-12 relative inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-6 py-2 text-l font-bold text-white shadow-sm transition duration-300 ease-in-out hover:bg-black focus:outline-none focus:ring-2 focus:ring-indigo-500 focus: ring-offset-2'>
-                            Ingresar
-                            <img src={loading} className='w-7 h-2 mt-0.5 ml-2'></img>
-                        </Link>
+                        <NavLink 
+                          to="/casos"
+                          className={({ isActive }) =>
+                            `text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 transition duration-300 ease-in-out mx-4
+                            ${isActive ? 'border-red-600' : 'border-white hover:border-red-600'}`
+                          }
+                        >
+                          Casos
+                        </NavLink>
+                        <NavLink 
+                          to="/servicios"
+                          className={({ isActive }) =>
+                            `text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 transition duration-300 ease-in-out mx-4
+                            ${isActive ? 'border-red-600' : 'border-white hover:border-red-600'}`
+                          }
+                        >
+                          Servicios
+                        </NavLink>
+
+                        <NavLink 
+                          to="/nosotros"
+                          className={({ isActive }) =>
+                            `text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 transition duration-300 ease-in-out mx-4
+                            ${isActive ? 'border-red-600' : 'border-white hover:border-red-600'}`
+                          }
+                        >
+                          Nosotros
+                        </NavLink>
+
+                        <NavLink 
+                          to="/contacto"
+                          className={({ isActive }) =>
+                            `text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 transition duration-300 ease-in-out mx-4
+                            ${isActive ? 'border-red-600' : 'border-white hover:border-red-600'}`
+                          }
+                        >
+                          Contacto
+                        </NavLink>
+                        
                     </div>
                 </div>
                 <div className='-ml-4 -mt-2 lg:hidden flex flex-wrap items-center justify-between sm:flex-nowrap md:px-14 px-2'>
@@ -112,7 +141,7 @@ function Navbar(){
                                     <Link
                                         key={item.name}
                                         to={item.href}
-                                        className="-m-3 flex items-center rounded-lg p-2 transition duration-150 ease-in-out hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
+                                        className="-m-3 flex items-center rounded-lg p-2 transition duration-150 ease-in-out hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-red-500 focus-visible:ring-opacity-50"
                                     >
                                         <div className="flex h-10 w-10 shrink-0 items-center justify-center text-white sm:h-12 sm:w-12">
                                         <item.icon aria-hidden="true" />
@@ -194,14 +223,14 @@ function IconOne() {
         <rect width="48" height="48" rx="8" fill="#FFEDD5" />
         <path
           d="M28.0413 20L23.9998 13L19.9585 20M32.0828 27.0001L36.1242 34H28.0415M19.9585 34H11.8755L15.9171 27"
-          stroke="#FB923C"
+          stroke="#fa2b2bff"
           strokeWidth="2"
         />
         <path
           fillRule="evenodd"
           clipRule="evenodd"
           d="M18.804 30H29.1963L24.0001 21L18.804 30Z"
-          stroke="#FDBA74"
+          stroke="#fa2b2bff"
           strokeWidth="2"
         />
       </svg>

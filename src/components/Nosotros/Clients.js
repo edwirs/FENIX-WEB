@@ -1,3 +1,10 @@
+import colombia from 'assets/img/colombia.jpg';
+import españa from 'assets/img/españa.jpg';
+import estados_unidos from 'assets/img/estados_unidos.jpg';
+import francia from 'assets/img/francia.jpg';
+import inglaterra from 'assets/img/inglaterra.jpg';
+import emiratos from 'assets/img/emiratos.jpg';
+
 function Clients(){
     return(
         <div className="bg-white">
@@ -5,11 +12,11 @@ function Clients(){
                     <div className="lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
                         <div>
                         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                            Usado por las empresas mas promedio de Facaatativa y sabana de occidente
+                            Recomendada por las personas colombianas y de todas partes del mundo.
                         </h2>
                         <p className="mt-3 max-w-3xl text-lg text-gray-500">
-                            Contamos con clientes importantes dentro del municipio de facatativa, asi como de toda sabana de occidente, ya que nuestro objetivo
-                            es poder llegar a cada uno de los rincones de los hogares cundinamarqueses.
+                            Contamos con clientes importantes dentro del pais nativo, asi como a nivel internacional,
+                            ya que nuestro objetivo es poder llegar a todos los rincones del mundo.
                         </p>
                         <div className="mt-8 sm:flex">
                             <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -26,34 +33,39 @@ function Clients(){
                         <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                             <img
                             className="max-h-12"
-                            src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
+                            src={colombia}
                             alt="Workcation"
                             />
                         </div>
                         <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                            <img className="max-h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
+                            <img 
+                            className="max-h-12" 
+                            src={españa} 
+                            alt="Mirage" />
                         </div>
                         <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                            <img className="max-h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
+                            <img className="max-h-12" 
+                            src={estados_unidos}
+                            alt="Tuple" />
                         </div>
                         <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                             <img
                             className="max-h-12"
-                            src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg"
+                            src={francia}
                             alt="Laravel"
                             />
                         </div>
                         <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                             <img
                             className="max-h-12"
-                            src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
+                            src={inglaterra}
                             alt="StaticKit"
                             />
                         </div>
                         <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                             <img
                             className="max-h-12"
-                            src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg"
+                            src={emiratos}
                             alt="Statamic"
                             />
                         </div>

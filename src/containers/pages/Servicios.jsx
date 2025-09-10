@@ -6,18 +6,24 @@ import Layout from "hocs/layouts/Layout"
 import coding_img from 'assets/img/Servicios/traje.png'
 import { useEffect } from "react"
 
+import lectura_general from 'assets/img/lectura_general.png';
+import predicciones from 'assets/img/predicciones.png';
+import pasado from 'assets/img/pasado.png';
+import vela1 from 'assets/img/vela1.png';
+import vela2 from 'assets/img/vela2.png';
+import vela3 from 'assets/img/vela3.png';
+
 const posts_software = [
   {
-    title: 'Trajes para caballero',
-    img: coding_img,
+    title: 'Lectura general, del amor y relaciones',
+    img: lectura_general,
     href: '#',
     category: { name: 'Article', href: '#' },
     description:
-      'Fabricación de trajes para caballero sobre medidas en diferentes modelos y estilos, siempre teniendo muy en cuenta el gusto y opinión del cliente.',
+      'Mis lecturas te ofrecen claridad sobre tu situación actual y los caminos que tienes por delante en el amor. Ya sea una visión general o enfocada sobre quien te conviene o no, recibirás orientación para tomar decisiones seguras, fortalecer vínculos y avanzar con armonía.',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
-    imageUrl:
-      'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+    imageUrl: lectura_general,
     readingTime: '6 min',
     author: {
       name: 'Roel Aufderehar',
@@ -27,12 +33,12 @@ const posts_software = [
     },
   },
   {
-    title: 'Pantalones',
+    title: 'Predicciones laborales, financieras y de salud',
     href: '#',
-    img: coding_img,
+    img: predicciones,
     category: { name: 'Video', href: '#' },
     description:
-      'Creación de pantalones a la medida que satisfagan la necesidad del cliente, con la mas alta calidad y materiales de primera calidad, lo cual brinda una duración única.',
+      'Te brindo precisión para tomar decisiones en trabajo, negocios o inversiones. Si buscas equilibrio interior, la lectura de salud energética identifica bloqueos y te orienta hacia una armonización espiritual que impulse tu bienestar.',
     date: 'Mar 10, 2020',
     datetime: '2020-03-10',
     imageUrl:
@@ -46,12 +52,12 @@ const posts_software = [
     },
   },
   {
-    title: 'Abrigos, Chaquetas y chaquetones',
+    title: 'Lectura de desiciones importantes, pasado, presente y futuro',
     href: '#',
-    img: coding_img,
+    img: pasado,
     category: { name: 'Case Study', href: '#' },
     description:
-      'Contar con un abrigo, una chaqueta o chaqueton elegante personalizado puede llegar a ser un distintivo único, por ello confecciones Randol´s te ofrece lo mejor de lo mejor.',
+      'Doy información para una toma de decisiones importantes analizando las opciones y sus posibles consecuencias. Con la lectura de pasado, presente y futuro, comprenderás la evolución de tu situación y obtendrás una visión más clara para actuar con confianza.',
     date: 'Feb 12, 2020',
     datetime: '2020-02-12',
     imageUrl:
@@ -68,12 +74,12 @@ const posts_software = [
 
 const posts_design = [
   {
-    title: 'Camisas',
-    img: coding_img,
+    title: 'Limpieza, endulzamientos y armonización',
+    img: vela1,
     href: '#',
     category: { name: 'Article', href: '#' },
     description:
-      'Para tener una presentacion elegante casual, la casmia se convierte en una prenda indispensable, por ello, ofrecemos a nuestros clientes lo mejor en calidad y precio de camiseria.',
+      'Realizo rituales con velas para limpiar energías negativas y atraer endulzamiento a tu vida, favoreciendo la armonía en tus relaciones y tu entorno.',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
     imageUrl:
@@ -87,12 +93,12 @@ const posts_design = [
     },
   },
   {
-    title: 'Corbatas y corbatines',
+    title: 'Apertura de caminos y protección',
     href: '#',
-    img: coding_img,
+    img: vela2,
     category: { name: 'Video', href: '#' },
     description:
-      'Para tus presentaciones, eventos, reunones, empresas, diario y demas, una buena corbata o corbatin te hace distinguir de los demas, este accesorio es indispensable.',
+      'Utilizo velas para abrir caminos y atraer nuevas oportunidades, al mismo tiempo que realizo rituales de protección energética para resguardar tu vida y la de tu familia de influencias negativas.',
     date: 'Mar 10, 2020',
     datetime: '2020-03-10',
     imageUrl:
@@ -106,12 +112,12 @@ const posts_design = [
     },
   },
   {
-    title: 'Marcornas',
+    title: 'Prosperidad, petición y manifestación',
     href: '#',
-    img: coding_img,
+    img: vela3,
     category: { name: 'Case Study', href: '#' },
     description:
-      'Si quieres hacer parte del grupo mas selectivo en cuanto a moda y elegancia, lo mejor es pensar en un accesorio como las mancornas, el cual te dara ese ditintivo elegante que tanto estas buscando.',
+      'Enciendo velas en rituales diseñados para atraer prosperidad y estabilidad financiera, potenciando también tus peticiones y manifestaciones, logrando que tus metas y deseos sean realizados.',
     date: 'Feb 12, 2020',
     datetime: '2020-02-12',
     imageUrl:
@@ -139,8 +145,8 @@ useEffect(()=>{
               <div className="py-12 bg-gray-50">
 
               </div>
-              <ServicesList posts={posts_software} section_title={'Trajes a la medida'}/>
-              <ServicesList posts={posts_design} section_title={'Accesorios Casuales'}/>
+              <ServicesList posts={posts_software} section_title={'Lecturas'}/>
+              <ServicesList posts={posts_design} section_title={'Unjición y Arreglos de velas o velones'}/>
           </div>
               <Footer/>
       </Layout>

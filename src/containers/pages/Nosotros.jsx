@@ -20,7 +20,7 @@ function Nosotros(){
                 <Testimonios/>
                 <Images/>
                 <Clients/>
-                <Team/>
+                {/* <Team/> */}
             </div>
             <Footer/>
         </Layout>
