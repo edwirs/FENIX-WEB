@@ -28,7 +28,7 @@ const navigation = {
   social: [
       {
         name: 'WhatsApp',
-        href: 'https://wa.me/3002308365',
+        href: 'https://wa.me/3209558082',
         icon: () => (
           <img
             src={whatsappLogo}
@@ -50,7 +50,7 @@ const navigation = {
       },
       {
         name: 'Instagram',
-        href: '#',
+        href: 'https://www.instagram.com/fenixtarotcol',
         icon: (props) => (
           <img
             src={instagramLogo}

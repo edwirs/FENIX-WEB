@@ -29,7 +29,7 @@ const navigation = {
   social: [
     {
       name: 'WhatsApp',
-      href: 'https://wa.me/3002308365',
+      href: 'https://wa.me/3209558082',
       icon: () => (
         <img
           src={whatsappLogo}
@@ -51,7 +51,7 @@ const navigation = {
     },
     {
       name: 'Instagram',
-      href: '#',
+      href: 'https://www.instagram.com/fenixtarotcol',
       icon: (props) => (
         <img
           src={instagramLogo}
@@ -112,7 +112,16 @@ function Header(){
           <div className="absolute inset-x-0 top-[50px] -z-10 bg-white overflow-hidden blur-md">
             <img
               src={fondo2}
-              className="w-auto h-[550px] object-contain object-top ml-auto translate-x-[-60px] translate-y-[-20px]"
+              className="
+                w-auto 
+                h-[250px]        /* celulares */
+                sm:h-[350px]     /* tablets */
+                md:h-[450px]     /* pantallas medianas */
+                lg:h-[550px]     /* pantallas grandes */
+                object-contain object-top 
+                ml-auto 
+                translate-x-[-60px] translate-y-[-20px]
+              "
               alt="Decoración"
             />
           </div>

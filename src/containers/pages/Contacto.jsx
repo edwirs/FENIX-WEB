@@ -18,13 +18,13 @@ function Contacto() {
       icon: <img src={whatsappLogo} alt="WhatsApp" className="w-8 h-8" />,
       title: "Dirígete a nuestro WhatsApp",
       description: "Comunicación directa, simple y rápida.",
-      link: "https://wa.me/3002308365",
+      link: "https://wa.me/3209558082",
     },
     {
       icon: <img src={gmailLogo} alt="Gmail" className="w-8 h-8" />,
       title: "Envíame un correo electrónico",
       description: "Escríbenos y te responderemos pronto.",
-      link: "mailto:tu_correo@ejemplo.com?subject=Consulta%acerca%20del%20tarot",
+      link: "fenixtarotcol@gmail.com?subject=Consulta%acerca%20del%20tarot",
     },
     {
       icon: <img src={FacebookLogo} alt="Gmail" className="w-8 h-8" />,
@@ -36,7 +36,7 @@ function Contacto() {
       icon: <img src={instagramLogo} alt="Gmail" className="w-8 h-8" />,
       title: "Visita nuestro Instagram",
       description: "Po ahí también nos podemos comunicar.",
-      link: "#",
+      link: "https://www.instagram.com/fenixtarotcol",
     },
   ];
 
