@@ -32,7 +32,7 @@ const incentives = [
               Construimos apoyo para las personas donde pensamos en la atencion al cliente.
               </h2>
               <p className="mt-4 text-gray-500">
-                La lectura de la baraja española o del tarot es una herramienta ancestral de guía y reflexión.
+                La lectura de tarot marsella, es una herramienta ancestral de guía y reflexión.
                 A través de sus símbolos, ofrece claridad en momentos de incertidumbre y ayuda en la toma de decisiones.
                 Esta práctica promueve el autoconocimiento y el equilibrio emocional.
                 Al comprender mejor el presente, las personas pueden mejorar su calidad de vida y bienestar general.
