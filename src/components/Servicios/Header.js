@@ -72,10 +72,10 @@ function Header(){
             <div>
               <div>
                 <h1 className="text-3xl sm:text-5xl font-semibold tracking-tight pb-10">
-                  Servicios Ofrecidos por Nosotros
+                  Servicios ofrecidos por nosotros
                 </h1>
                 <p className="mt-16 text-2xl max-w-3xl leading-8 text-black ">
-                Nos encanta cambiar los patrones de pensamiento establecidos y crear lo que nunca antes se había intentado. tomamos semillas y cultivamos selvas.
+                Nos encanta cambiar los patrones de pensamiento establecidos y crear lo que nunca antes se había intentado. Tomamos semillas y cultivamos selvas.
                 </p>
                 <div className="mt-10 flex space-x-6">
                   {navigation.social.map((item) => (

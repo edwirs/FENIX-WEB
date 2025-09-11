@@ -29,7 +29,7 @@ const incentives = [
           <div className="mx-auto max-w-2xl px-4 lg:max-w-none">
             <div className="max-w-3xl">
               <h2 className="text-4xl font-bold tracking-tight text-gray-900">
-              Construimos apoyo para las personas donde pensamos en la atencion al cliente.
+              Construimos apoyo para las personas, donde pensamos en la atención al cliente.
               </h2>
               <p className="mt-4 text-gray-500">
                 La lectura de tarot marsella, es una herramienta ancestral de guía y reflexión.

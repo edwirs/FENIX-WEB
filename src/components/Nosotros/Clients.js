@@ -15,7 +15,7 @@ function Clients(){
                             Recomendada por las personas colombianas y de todas partes del mundo.
                         </h2>
                         <p className="mt-3 max-w-3xl text-lg text-gray-500">
-                            Contamos con clientes importantes dentro del pais nativo, asi como a nivel internacional,
+                            Contamos con clientes importantes dentro del país nativo, así como a nivel internacional,
                             ya que nuestro objetivo es poder llegar a todos los rincones del mundo.
                         </p>
                         <div className="mt-8 sm:flex">
