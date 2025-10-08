@@ -2,6 +2,7 @@ import Typewriter from 'typewriter-effect'
 import whatsappLogo from 'assets/img/whatsapp.png';
 import instagramLogo from 'assets/img/instagram.png';
 import FacebookLogo from 'assets/img/facebook.jpeg';
+import tiktok from 'assets/img/tiktok.png';
 import fondo1 from 'assets/img/fondo_1.png';
 import fondo2 from 'assets/img/carta_sol.jpg';
 import {Link} from 'react-router-dom'
@@ -40,7 +41,7 @@ const navigation = {
     },
     {
       name: 'Facebook',
-      href: '#',
+      href: 'https://www.facebook.com/share/17Ty9PQ437/?mibextid=wwXIfr',
       icon: (props) => (
         <img
           src={FacebookLogo}
@@ -56,6 +57,17 @@ const navigation = {
         <img
           src={instagramLogo}
           alt="Instagram"
+          style={{ width: 60, height: 60, objectFit: 'contain' }}
+        />
+      ),
+    },
+    {
+      name: 'TikTok',
+      href: 'https://www.tiktok.com/@fenixtarotcol?_t=ZS-90MGPXJ2XcP&_r=1',
+      icon: (props) => (
+        <img
+          src={tiktok}
+          alt="TikTok"
           style={{ width: 60, height: 60, objectFit: 'contain' }}
         />
       ),

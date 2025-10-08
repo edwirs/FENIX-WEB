@@ -7,6 +7,7 @@ import whatsappLogo from "assets/img/whatsapp.png";
 import gmailLogo from "assets/img/gmail.png";
 import instagramLogo from 'assets/img/instagram.png';
 import FacebookLogo from 'assets/img/facebook.jpeg';
+import tiktok from 'assets/img/tiktok.png';
 
 function Contacto() {
   useEffect(() => {
@@ -35,8 +36,14 @@ function Contacto() {
     {
       icon: <img src={instagramLogo} alt="Gmail" className="w-8 h-8" />,
       title: "Visita nuestro Instagram",
-      description: "Po ahí también nos podemos comunicar.",
+      description: "Por ahí también nos podemos comunicar.",
       link: "https://www.instagram.com/fenixtarotcol",
+    },
+    {
+      icon: <img src={tiktok} alt="TikTok" className="w-8 h-8" />,
+      title: "Navega en nuestro TikTok",
+      description: "Videos de tu gran interés.",
+      link: "https://www.tiktok.com/@fenixtarotcol?_t=ZS-90MGPXJ2XcP&_r=1",
     },
   ];
 
